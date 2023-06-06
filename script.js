@@ -1,4 +1,9 @@
+let playerSelection;
+let winner;
+
 // Webpage prompt, user input
+playerSelection = prompt("Choose your weapon (Rock / Paper/ Scissors): ");
+playerSelection = playerSelection.toUpperCase();
 
 // Computer chooses
 
